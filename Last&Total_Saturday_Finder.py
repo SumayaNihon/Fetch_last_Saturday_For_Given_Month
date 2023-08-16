@@ -1,6 +1,6 @@
 import datetime
 
-def last_saturday(year,month):
+def last_and_total_saturday(year,month):
     last_day = datetime.date(year, month + 1, 1) - datetime.timedelta(days=1)
     offset = (last_day.weekday() - 5) % 7
     saturday = last_day - datetime.timedelta(days=offset)
@@ -17,4 +17,4 @@ def last_saturday(year,month):
     
     print(f"Total Saturdays: {total_saturdays}")
 
-last_saturday(2023,6)
+last_and_total_saturday(2023,6)
