@@ -1,5 +1,5 @@
 # Fetch_Last_Saturday_For_Given_Month
-# Last Saturday Finder
+# Last&Total Saturday Finder
 
 This Python script helps you find the last Saturday of a specified month and year. It also counts the total number of Saturdays in that month.
 
