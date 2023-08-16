@@ -9,7 +9,7 @@ This Python script helps you find the last Saturday of a specified month and yea
 - [Usage](#usage)
 - [Functionality](#functionality)
 - [How to Run](#how-to-run)
-- [Code Explanation](#Code-Explanation)
+- [Code Explanation](#code-explanation)
 - [Example](#example)
 
 ## Description
