@@ -49,6 +49,7 @@ This Python script uses the datetime module to find the last Saturday of a given
 6. For each day, checks if the weekday index is 5 (indicating Saturday) and increments the total_saturdays counter.
 
 7. Prints the calculated total number of Saturdays for the given month.
+   
 ## Example
 
 ```python
