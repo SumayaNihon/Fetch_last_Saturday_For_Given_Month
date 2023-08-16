@@ -31,6 +31,24 @@ The primary purpose of this script is to help you find the last Saturday of a sp
 3. Open a terminal or command prompt and navigate to the script's directory.
 4. Run the script using the command: `python3 Last_Saturday_Finder.py`
 
+
+## Code Explanation
+
+This Python script uses the datetime module to find the last Saturday of a given month and calculate the total number of Saturdays in that month. It defines a function last_saturday(year, month) which takes the year and month as inputs and performs the following tasks:
+
+1. Calculates the last day of the given month using datetime.date(year, month + 1, 1) - datetime.timedelta(days=1).
+
+2. Determines the offset required to find the last Saturday by calculating (last_day.weekday() - 5) % 7.
+
+3. Calculates the date of the last Saturday by subtracting the offset from the last day of the month.
+
+4. Prints the last Saturday's day along with the appropriate ordinal indicator (e.g., "1st," "2nd," "3rd," "4th," "5th," etc.).
+
+5. Initializes counters for the total number of Saturdays and starts iterating through the days of the month using a loop.
+
+6. For each day, checks if the weekday index is 5 (indicating Saturday) and increments the total_saturdays counter.
+
+7. Prints the calculated total number of Saturdays for the given month.
 ## Example
 
 ```python
